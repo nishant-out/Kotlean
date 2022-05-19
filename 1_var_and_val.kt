@@ -15,4 +15,18 @@ fun main(){
     var i = 5
     
     println( "Kotin " + str + i )
+    
+    
+    
+    // Pt 1.    // data types are not null by default in Kotlin
+    // Nullable String ->  ? is used
+    
+    var s: String? = null
+ 
+    println( s )
+ 
+    s = "stringe"
+ 
+    println( s )
+    
 }
